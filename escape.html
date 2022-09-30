@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="./escape.css" rel="stylesheet">
+    <script src="./escape.js" defer></script>
+    <title>escape room - reduced ver.</title>
+</head>
+<body>
+    <header>
+        <img src="resources/open.png" />
+        escape room - reduced version
+        <img src="./resources/closed.png" />
+    </header>
+    
+    <div id="layout">
+          
+        <div class="mainGameSession">
+            <img id="door1" class="door" src="./resources/closed.png"  />
+            <img id="door2" class="door" src="./resources/closed.png"  />
+            <img id="door3" class="door" src="./resources/closed.png"  />  
+  
+        </div>
+        <div id="rightSide">
+            <h1 id="introduction">introduction</h1>
+            <p id="introDetail">
+                You are stuck in a room with three doors!<br />
+                But only one of them is the actual way out. Try to find it.<br />
+                You will have a second chance if the door opens to a cliff side.<br />
+                You will be killed and lose the game if there is an evil behind the door!<br />
+                Good Luck!<br />
+            </p>
+
+            <div id="hardModeInstruct">
+                Click below button to change level of difficulty
+                <div class="gamebutton"  id="modeButton">Easy</div>
+            </div>
+
+            <div id="resultBoard">result</div>
+
+            <div class="gamebutton"  id="startGame">Good Luck!</div>
+
+            <table>
+                <tr>
+                    <th>Your Wining Streak</th>
+                    <td id="winningStreak"></td>
+                </tr>
+            </table>
+        </div>
+    
+    </div>
+    <footer>      
+        <div id="findme"> 
+            
+            <span><a href="mailto:thanhquang19@gmail.com" target="_blank"> <i class="fa fa-envelope" ></i></a></span>
+            <span><a href="https://www.linkedin.com/in/thanh-quang-phan-6387a8223/" target="_blank"> <i class="fa fa-linkedin" ></i></a></span>
+            <span><a href="https://github.com/thanhquang19" target="_blank"><i class="fa fa-github"></i></a></span>
+            <br>
+            find me 
+        </div>
+    </footer>
+</body>
+</html>
